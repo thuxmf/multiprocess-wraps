@@ -57,3 +57,5 @@ print(func_multi(torch.ones(2, 3)))
 ## TODOs:
 
 - [ ] Setting `gpu_ids`for multiprocessing with CUDA involved.
+- [ ] Use `Iterator` type of input parameters, which conflicts with `self._check_args`.
+- [ ] How to use `tqdm`? Or other ways to display executing time?
